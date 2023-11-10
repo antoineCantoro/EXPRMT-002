@@ -1,0 +1,13 @@
+// ======================================================
+// Fonts
+// Tenebras Trial : https://type-department.com/collections/sans-serif-fonts/products/tenebras/
+// ======================================================
+
+
+@font-face {
+    font-family: "Tenebras";
+    src: 
+        url("../fonts/Tenebras.woff2") format("woff2"), 
+        url("../fonts/Tenebras.woff")  format("woff");
+    font-weight: 700;
+}

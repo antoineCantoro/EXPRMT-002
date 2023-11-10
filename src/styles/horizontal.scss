@@ -1,0 +1,94 @@
+
+.flow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 277rem;
+    height: 100%;
+    will-change: transform;
+}
+
+.visual {
+    vertical-align: middle;
+    position: absolute;
+    height: auto;
+
+    &.--1 {
+        width: 27.5rem;
+        top: 9.6rem;
+        left: 7.8rem;
+        z-index: 3;
+    }
+
+    &.--2 {
+        width: 22.7rem;
+        top: 32.5rem;
+        left: 35rem;
+    }
+
+    &.--3 {
+        width: 17.6rem;
+        top: 9.6rem;
+        left: 67.7rem;
+    }
+
+    &.--4 {
+        width: 22.7rem;
+        top: 44.6rem;
+        left: 111.3rem;
+        z-index: 3;
+    }
+
+    &.--5 {
+        width: 25.4rem;
+        top: 18.7rem;
+        left: 133.1rem;
+    }
+
+    &.--6 {
+        width: 17.6rem;
+        top: 39.5rem;
+        left: 182.1rem;
+    }
+
+    &.--7 {
+        width: 22.7rem;
+        top: 14rem;
+        left: 231rem;
+    }
+
+    &.--8 {
+        width: 27.2rem;
+        top: 39.5rem;
+        left: 247.4rem;
+    }
+}
+
+.heading {
+    position: absolute;
+    top: 34rem;
+    left: 30rem;
+    z-index: 2;
+}
+
+.paragraph {
+    position: absolute;
+    
+    &.--1 {
+        width: 30.7rem;
+        left: 62.3rem;
+        top: 62.3rem;
+    }
+
+    &.--2 {
+        width: 30.7rem;
+        left: 160.3rem;
+        top: 9.6rem;
+    }
+
+    &.--3 {
+        width: 30.7rem;
+        left: 209.3rem;
+        top: 62.3rem;
+    }
+}

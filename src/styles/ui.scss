@@ -1,0 +1,50 @@
+// ======================================================
+// UI Elements
+// ======================================================
+
+.title {
+    position: fixed;
+    top: 2.4rem;
+    left: 2.4rem;
+    z-index: 2;
+
+    &::before {
+        content: '';
+        height: 1.2rem;
+        width: 1.2rem;
+        background-color: red;
+        margin-right: 0.8rem;
+        display: inline-block;
+        border-radius: 50%;
+    }
+}
+
+.navigation {
+    position: fixed;
+    top: 2.4rem;
+    right: 2.4rem;
+    z-index: 2;
+} 
+
+.socials {
+    position: fixed;
+    bottom: 2.4rem;
+    left: 2.4rem;
+    z-index: 2;
+}
+
+.about {
+    position: fixed;
+    bottom: 2.4rem;
+    right: 2.4rem;
+    z-index: 2;
+
+    appearance: none;
+    border: none;
+    font-family: inherit;
+    background: transparent;
+    color: inherit;
+    font-size: inherit;
+    text-transform: inherit;
+    cursor: pointer;
+}

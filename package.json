@@ -1,0 +1,35 @@
+{
+  "name": "exprmt-002",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OceboStudio/exprmt-002.git"
+  },
+  "keywords": [],
+  "author": "Antoine Cantoro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OceboStudio/exprmt-002/issues"
+  },
+  "homepage": "https://github.com/OceboStudio/exprmt-002#readme",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "sass": "^1.69.5",
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "@studio-freight/lenis": "^1.0.27",
+    "fontfaceobserver": "^2.3.0",
+    "gsap": "^3.11.3",
+    "imagesloaded": "^5.0.0",
+    "locomotive-scroll": "^4.1.4",
+    "split-type": "^0.3.2",
+    "vite-plugin-glsl": "^1.1.2"
+  }
+}

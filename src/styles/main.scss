@@ -1,0 +1,21 @@
+// ======================================================
+// Variables
+// ======================================================
+
+// Colors
+$red-color: #FD0F00;
+$rose-color: #FFE2E2;
+
+// Easings
+$ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+
+
+// Base
+// ======================================================
+
+// @import './locomotive-scroll.css';
+
+@import './base.scss';
+@import './fonts.scss';
+@import './ui.scss';
+@import './horizontal.scss';
